@@ -33,7 +33,6 @@ export const InputField = tw.input`
     }
     bg-transparent
     focus:outline-none
-    focus:border-gray-400
 `;
 
 export const HideButton = tw.button`

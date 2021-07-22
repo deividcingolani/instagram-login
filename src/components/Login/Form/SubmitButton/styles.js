@@ -6,8 +6,9 @@ export const Button = tw.button`
     py-1
     mt-4
     rounded
+    duration-150
     ${props => props.$disabled 
-        ? 'cursor-default'
+        ? 'cursor-default opacity-50'
         : 'cursor-pointer'
     }
     bg-primary-blue
