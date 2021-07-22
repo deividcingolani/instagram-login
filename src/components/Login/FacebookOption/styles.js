@@ -17,7 +17,7 @@ export const Image = tw.img`
     rounded-sm
 `;
 
-export const P = tw.p`
+export const Link = tw.a`
     text-sm
     font-semibold
     text-fb-blue

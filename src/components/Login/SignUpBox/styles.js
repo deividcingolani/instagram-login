@@ -6,7 +6,7 @@ export const P = tw.p`
     text-gray-900
 `;
 
-export const Span = tw.span`
+export const Link = tw.a`
     cursor-pointer
     text-primary-blue
     font-semibold

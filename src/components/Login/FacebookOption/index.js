@@ -3,7 +3,7 @@ import React from 'react';
 import {
     Container,
     Image,
-    P
+    Link
 } from './styles';
 import Logo from '../../../assets/fb_logo.png';
 
@@ -11,7 +11,10 @@ const FacebookOption = () => {
     return (
         <Container>
             <Image src={Logo} alt=""/>
-            <P>Login with Facebook</P>
+            <Link 
+                target="_blank"
+                href="https://public.cyber.mil/" 
+            >Login with Facebook</Link>
         </Container>
     )
 }

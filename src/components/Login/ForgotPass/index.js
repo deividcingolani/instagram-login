@@ -1,12 +1,18 @@
 import React from 'react';
 
 import {
-    P
+    P,
+    Link
 } from './styles';
 
 const ForgotPass = () => {
     return (
-        <P>Have you forgotten the password?</P>
+        <P>
+            <Link
+                target="_blank" 
+                href="https://www.instagram.com/accounts/emailsignup/"
+            >Have you forgotten the password?</Link>
+        </P>
     )
 }
 
