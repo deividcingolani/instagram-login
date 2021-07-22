@@ -21,7 +21,7 @@ const Login = () => (
                 <Form/>
                 <Divider/>
                 <FacebookOption/>
-                <ForgotPass/>
+                <ForgotPass show="hidden md:block"/>
             </Article>
             <Article>
                 <SignUpBox/>

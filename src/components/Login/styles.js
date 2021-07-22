@@ -15,18 +15,23 @@ export const Section = tw.section`
 `;
 
 export const Article = tw.article`
-    w-9/12
+    w-10/12
+    sm:w-8/12
     md:w-1/2
-    lg:w-1/4
-    px-6 py-4
-    border
+    lg:w-4/12
+    px-6 md:py-4
+    md:border
     border-gray-300
-    bg-white
-    mb-4
+    md:bg-white
+    md:mb-4
+    flex
+    flex-col
 `;
 
 export const Image = tw.img`
     mx-auto
-    mt-5 mb-2
+    mt-5 
+    mb-10 md:mb-2
     px-8
+    order-1
 `;

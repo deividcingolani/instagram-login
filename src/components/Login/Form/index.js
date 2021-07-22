@@ -7,6 +7,7 @@ import {
 } from './styles';
 import Input from './Input';
 import SubmitButton from './SubmitButton';
+import ForgotPass from '../ForgotPass';
 
 const Form = () => {
 
@@ -29,6 +30,7 @@ const Form = () => {
                 value={login.password}
                 handleChange={handleChange}
             />
+            <ForgotPass show="md:hidden"/>
             <SubmitButton
                 disabled={enableSubmit}
             >Log in</SubmitButton>

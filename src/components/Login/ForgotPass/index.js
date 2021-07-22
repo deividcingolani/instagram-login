@@ -1,19 +1,20 @@
 import React from 'react';
 
 import {
+    Container,
+    Link,
     P,
-    Link
 } from './styles';
 
-const ForgotPass = () => {
-    return (
+const ForgotPass = ({ show }) => (
+    <Container $show={show}>
         <P>
             <Link
                 target="_blank" 
                 href="https://www.instagram.com/accounts/emailsignup/"
-            >Have you forgotten the password?</Link>
+                >Have you forgotten the password?</Link>
         </P>
-    )
-}
+    </Container>
+)
 
 export default ForgotPass;
