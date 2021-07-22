@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'primary-white': '#fafafa',
         'primary-blue': '#0095f6',
+        'fb-blue': '#00376b',
       }
     },
   },
