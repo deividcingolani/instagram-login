@@ -45,10 +45,12 @@ const Form = () => {
                 id="email"
                 value={login.email}
                 handleChange={handleChange}
+                labeltxt="Phone, user or email"
             />
             <Input
                 id="password"
                 type="password"
+                labeltxt="Password"
                 value={login.password}
                 handleChange={handleChange}
             />

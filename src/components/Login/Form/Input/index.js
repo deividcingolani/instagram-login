@@ -23,11 +23,12 @@ const Input = ({
 
     return (
         <InputContainer>
-            <Label>{labeltxt}</Label>
+            <Label $active={value.length}>{labeltxt}</Label>
             <InputField
                 id={id}
                 value={value}
                 type={localType}
+                $active={value.length}
                 onChange={handleChange}
             />
             { 

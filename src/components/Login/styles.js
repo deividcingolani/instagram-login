@@ -27,6 +27,6 @@ export const Article = tw.article`
 
 export const Image = tw.img`
     mx-auto
-    my-5
+    mt-5 mb-2
     px-8
 `;

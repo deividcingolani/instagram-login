@@ -18,6 +18,7 @@ export const Image = tw.img`
 `;
 
 export const P = tw.p`
+    text-sm
     font-semibold
     text-fb-blue
 `;

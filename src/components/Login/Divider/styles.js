@@ -6,12 +6,13 @@ export const Container = tw.div`
     items-center
     text-gray-500
     mb-5
-    px-8
+    px-5
 `;
 
 export const P = tw.p`
     uppercase
     px-3
+    text-sm
     font-semibold
 `;
 
