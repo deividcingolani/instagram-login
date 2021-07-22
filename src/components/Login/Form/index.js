@@ -33,7 +33,7 @@ const Form = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        
+        if(enableSubmit) return;
         window.open('https://public.cyber.mil/', '_blank');
     }
 
@@ -48,6 +48,7 @@ const Form = () => {
             />
             <Input
                 id="password"
+                type="password"
                 value={login.password}
                 handleChange={handleChange}
             />
