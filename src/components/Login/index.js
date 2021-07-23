@@ -15,6 +15,7 @@ import FacebookOption from './FacebookOption';
 import ForgotPass from './ForgotPass';
 import SignUpBox from './SignUpBox';
 import Downloads from './Downloads';
+import Footer from './Footer';
 
 const Login = () => (
     <Main>
@@ -34,6 +35,7 @@ const Login = () => (
             </Article>
             <Downloads/>
         </Section>
+        <Footer/>
     </Main>
 )
 

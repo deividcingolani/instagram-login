@@ -6,6 +6,7 @@ export const Main = tw.main`
     md:w-full
     flex
     flex-row
+    flex-wrap
     justify-center
     items-center
     mx-auto
