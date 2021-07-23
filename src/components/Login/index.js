@@ -5,8 +5,10 @@ import {
     Section,
     Article,
     Image,
+    ImagesSection,
 } from './styles';
 import Logo from '../../assets/logo.png';
+import Background from '../../assets/cell_background.png';
 import Form from './Form';
 import Divider from './Divider';
 import FacebookOption from './FacebookOption';
@@ -16,6 +18,9 @@ import Downloads from './Downloads';
 
 const Login = () => (
     <Main>
+        <ImagesSection>
+            <img src={Background} alt=""/>
+        </ImagesSection>
         <Section>
             <Article>
                 <Image src={Logo}/>

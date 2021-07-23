@@ -6,8 +6,7 @@ export const DownloadArticle = tw.article`
     md:flex-row
     md:flex-wrap
     md:justify-center
-    md:w-1/2
-    lg:w-4/12
+    md:w-full
 `;
 
 export const P = tw.p`
