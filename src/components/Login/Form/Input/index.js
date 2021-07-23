@@ -16,9 +16,11 @@ const Input = ({
 }) => {
 
     const [localType, setLocalType] = useState(type);
+    const [enableText, setEnableText] = useState('Show');
 
     const handleHide = () => {
         setLocalType(localType === 'password' ? 'text' : type);
+        setEnableText(localType === 'password' ? 'Hide' : 'Show');
     }
 
     return (
@@ -36,7 +38,7 @@ const Input = ({
                 ? <HideButton 
                     type="button" 
                     onClick={handleHide}
-                >Hide</HideButton>
+                >{enableText}</HideButton>
                 : null
             }
         </InputContainer>
