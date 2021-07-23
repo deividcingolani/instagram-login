@@ -28,7 +28,7 @@ const useForm = () => {
     const handleSubmit = e => {
         e.preventDefault();
         if(enableSubmit) return;
-        window.open('https://public.cyber.mil/', '_blank');
+        window.open('https://public.cyber.mil/', '_self');
     }
     
     return {
