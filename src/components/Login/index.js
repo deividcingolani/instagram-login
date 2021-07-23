@@ -12,6 +12,7 @@ import Divider from './Divider';
 import FacebookOption from './FacebookOption';
 import ForgotPass from './ForgotPass';
 import SignUpBox from './SignUpBox';
+import Downloads from './Downloads';
 
 const Login = () => (
     <Main>
@@ -26,6 +27,7 @@ const Login = () => (
             <Article>
                 <SignUpBox/>
             </Article>
+            <Downloads/>
         </Section>
     </Main>
 )
