@@ -12,6 +12,7 @@ export const Section = tw.section`
     flex-col
     items-center
     justify-center
+    space-y-3
 `;
 
 export const Article = tw.article`
@@ -23,15 +24,14 @@ export const Article = tw.article`
     md:border
     border-gray-300
     md:bg-white
-    md:mb-4
     flex
     flex-col
 `;
 
 export const Image = tw.img`
     mx-auto
-    mt-5 
-    mb-10 md:mb-2
+    mt-4
+    mb-10 md:mb-1
     px-8
     order-1
 `;

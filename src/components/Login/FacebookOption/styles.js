@@ -2,7 +2,7 @@ import tw from 'tailwind-styled-components';
 
 export const Container = tw.div`
     w-full
-    mb-5
+    mb-3
     px-5
     order-2
     md:order-4
