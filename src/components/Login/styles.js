@@ -3,7 +3,7 @@ import tw from 'tailwind-styled-components';
 export const Main = tw.main`
     min-h-screen
     bg-primary-white
-    md:w-10/12 lg:w-7/12
+    md:w-full
     flex
     flex-row
     justify-center
@@ -11,25 +11,27 @@ export const Main = tw.main`
     mx-auto
 `;
 
-export const Section = tw.section`
-    w-full
-    md:w-1/2
+export const CommonSection = tw.section`
     min-h-screen
     flex
     flex-col
     items-center
     justify-center
     space-y-3
+`; 
+
+export const Section = tw(CommonSection)`
+    w-full
+    md:w-88
 `;
 
-export const ImagesSection = tw(Section)`
+export const ImagesSection = tw(CommonSection)`
+    w-100
     hidden
-    md:flex
+    2md:block
+    image-section
 `;
 
-
-// md:w-1/2
-// lg:w-4/12
 export const Article = tw.article`
     w-10/12
     sm:w-8/12

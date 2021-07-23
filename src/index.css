@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.image-section {
+    background-image: url('./assets/cell_background.png');
+    background-repeat: no-repeat;
+}
+
+.slider {
+    margin: 99px;
+}
+
+.slider-image {
+    left: 52px
+}

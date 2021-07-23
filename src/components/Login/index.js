@@ -8,7 +8,7 @@ import {
     ImagesSection,
 } from './styles';
 import Logo from '../../assets/logo.png';
-import Background from '../../assets/cell_background.png';
+import Slider from './Slider';
 import Form from './Form';
 import Divider from './Divider';
 import FacebookOption from './FacebookOption';
@@ -19,7 +19,7 @@ import Downloads from './Downloads';
 const Login = () => (
     <Main>
         <ImagesSection>
-            <img src={Background} alt=""/>
+            <Slider/>
         </ImagesSection>
         <Section>
             <Article>

@@ -9,6 +9,8 @@ module.exports = {
       // => @media (min-width: 640px) { ... }
       'md': '760px',
       // => @media (min-width: 768px) { ... }
+      '2md': '876px',
+      // => @media (min-width: 876px) { ... }
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
       'xl': '1280px',
@@ -21,7 +23,11 @@ module.exports = {
         'primary-white': '#fafafa',
         'primary-blue': '#0095f6',
         'fb-blue': '#00376b',
-      }
+      },
+      spacing: {
+        '88': '22rem',
+        '100': '28rem',
+      },
     },
   },
   variants: {
