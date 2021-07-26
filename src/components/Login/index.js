@@ -18,6 +18,7 @@ import Downloads from './Downloads';
 import Footer from './Footer';
 
 const Login = () => (
+    <>
     <Main>
         <ImagesSection>
             <Slider/>
@@ -37,6 +38,7 @@ const Login = () => (
         </Section>
         <Footer/>
     </Main>
+    </>
 )
 
 export default Login

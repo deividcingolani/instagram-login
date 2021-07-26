@@ -1,19 +1,17 @@
 import tw from 'tailwind-styled-components';
 
 export const Main = tw.main`
-    min-h-screen
     bg-primary-white
     md:w-full
     flex
     flex-row
     flex-wrap
     justify-center
-    items-center
-    mx-auto
+    items-stretch
 `;
 
 export const CommonSection = tw.section`
-    min-h-screen
+    pb-28
     flex
     flex-col
     items-center
