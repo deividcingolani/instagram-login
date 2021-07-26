@@ -17,13 +17,13 @@ export const CommonSection = tw.section`
     flex
     flex-col
     items-center
-    justify-center
     space-y-3
 `; 
 
 export const Section = tw(CommonSection)`
     w-full
     md:w-88
+    mt-10
 `;
 
 export const ImagesSection = tw(CommonSection)`
