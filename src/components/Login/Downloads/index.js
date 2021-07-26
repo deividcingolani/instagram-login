@@ -16,7 +16,7 @@ import {
 const Downloads = () => {
     return (
         <DownloadArticle>
-            <P>Download the app.</P>
+            <P>Get the app.</P>
             <Link href={appStoreLink}>
                 <Image src={LogoAppStore}/>
             </Link>

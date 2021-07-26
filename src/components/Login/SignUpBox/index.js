@@ -8,7 +8,7 @@ import {
 const SignUpBox = () => {
     return (
         <P>
-            You do not have an account? &nbsp;
+            Don't have an account? &nbsp;
             <Link
                 target="_blank"
                 href="https://www.instagram.com/accounts/emailsignup/"

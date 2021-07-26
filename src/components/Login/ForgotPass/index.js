@@ -12,7 +12,7 @@ const ForgotPass = ({ show }) => (
             <Link
                 target="_blank" 
                 href="https://www.instagram.com/accounts/emailsignup/"
-                >Have you forgotten the password?</Link>
+                >Forgot password?</Link>
         </P>
     </Container>
 )
