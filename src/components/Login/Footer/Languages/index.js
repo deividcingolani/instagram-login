@@ -8,7 +8,7 @@ const Languages = () => {
         <Select>
             {
                 languages.map((item, i) => (
-                    <option value={item}>{item}</option>
+                    <option key={i} value={item}>{item}</option>
                 ))
             }
         </Select>
